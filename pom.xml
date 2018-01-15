@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.ronmei.cowsport</groupId>
+  <artifactId>parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>cowsport-common</module>
+  	<module>cowsport-pojo</module>
+  	<module>cowsport-dao</module>
+  	<module>cowsport-interface</module>
+  	<module>cowsport-cotroller-login</module>
+  	<module>cowsport-cotroller-console</module>
+  	<module>cowsport-cotroller-portal</module>
+  	<module>cowsport-service-buyer</module>
+  	<module>cowsport-service-cms</module>
+  	<module>cowsport-service-product</module>
+  	<module>cowsport-service-solr</module>
+  </modules>
+</project>
